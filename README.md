@@ -19,23 +19,6 @@ This project is intended for learning compiler design concepts and experimenting
 
 ---
 
-## 📂 Project Structure
-
-tiny-compiler/
-├── frontend/ # Frontend logic
-├── ply/ # Python Lex-Yacc (parsing library)
-├── lexer.py # Lexical analyzer
-├── parser.py # Syntax parser
-├── semantic_analyzer.py # Semantic analysis
-├── ast_tree # AST representation
-├── intermediate.py # Intermediate code generation
-├── optimizer.py # Code optimization
-├── codegen.py # Final code generation
-├── simulator.py # Execution simulator
-├── main.py # Entry point
-└── test.c # Sample test input
-
-
 ---
 
 ## ⚡ Getting Started
@@ -53,21 +36,6 @@ pip install ply
 
 ### 3. Run the compiler
 python main.py test.c
-🧪 Example
-Input (test.c):
-
-C
-
-int a = 5;
-int b = 10;
-int c = a + b;
-Output (intermediate representation):
-
-Ini, TOML
-
-t1 = 5
-t2 = 10
-t3 = t1 + t2
 
 
 ## 📖 Learning Goals
