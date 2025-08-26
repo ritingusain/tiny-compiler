@@ -33,9 +33,6 @@ tiny-compiler/
 ├── main.py # Entry point
 ├── test.c # Sample test input
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -45,18 +42,23 @@ Edit
 ```bash
 git clone https://github.com/ritingusain/tiny-compiler.git
 cd tiny-compiler
+
+
+```
+
 2. Install dependencies
 Make sure you have Python 3 installed. Install PLY:
 
-bash
-Copy
-Edit
+```bash
 pip install ply
-3. Run the Compiler
-bash
-Copy
-Edit
+```
+
+---
+
+3. Run the Compile
+```bash
 python main.py test.c
+```
 🧪 Example
 Input (test.c):
 
@@ -74,6 +76,9 @@ Edit
 t1 = 5
 t2 = 10
 t3 = t1 + t2
+
+---
+
 📖 Learning Goals
 Understand compiler phases step by step.
 
@@ -81,8 +86,10 @@ Gain hands-on experience with lexing, parsing, semantic analysis, and code gener
 
 Build a foundation for advanced compiler design.
 
+---
+
 📌 Future Improvements
-Support more programming constructs (loops, conditionals, functions).
+Support more complex programming constructs .
 
 Generate assembly code.
 
